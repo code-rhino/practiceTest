@@ -2,6 +2,7 @@ package com.codedifferently.practice;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class Part01Test {
@@ -14,15 +15,17 @@ public class Part01Test {
     }
 
     @Test
+    @DisplayName("Concatenate Test")
     public void test1() {
         String string1 = "The";
         String string2 = "Quick";
         String expected = "TheQuick";
-        String actual = part01.concatentate(string1,string2);
+        String actual = part01.concatenate(string1,string2);
         Assertions.assertEquals(expected, actual);
     }
 
     @Test
+    @DisplayName("Remove Character Test")
     public void test2(){
         String string1 = "racecar";
         String string2 = "r";
@@ -32,9 +35,10 @@ public class Part01Test {
     }
 
     @Test
+    @DisplayName("Reverse Test")
     public void test3(){
-        String string1 = "The";
-        String expected = "ehT";
+        String string1 = "These";
+        String expected = "esehT";
         String actual = part01.reverse(string1);
         Assertions.assertEquals(expected, actual);
     }
