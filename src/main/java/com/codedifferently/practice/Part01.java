@@ -7,7 +7,7 @@ public class Part01 {
      * @return concatenation of `string1` and `string2`
      */
     public  String concatentate(String string1, String string2) {
-        return null;
+        return string1 + string2 ;
     }
 
     /**
