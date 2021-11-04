@@ -18,7 +18,7 @@ public class Part01Test {
         String string1 = "The";
         String string2 = "Quick";
         String expected = "TheQuick";
-        String actual = part01.concatentate(string1,string2);
+        String actual = part01.concatenate(string1,string2);
         Assertions.assertEquals(expected, actual);
     }
 
