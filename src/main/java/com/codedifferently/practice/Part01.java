@@ -6,8 +6,11 @@ public class Part01 {
      * @param string2 - String to add to `string1`
      * @return concatenation of `string1` and `string2`
      */
-    public  String concatentate(String string1, String string2) {
-        return null;
+    public  String concatenate(String string1, String string2) {
+
+        String s3 = string1.concat(string2);
+
+        return s3;
     }
 
     /**
@@ -15,6 +18,8 @@ public class Part01 {
      * @return an identical string with characters in reverse order
      */
     public  String reverse(String string1) {
+
+
         return null;
     }
 
