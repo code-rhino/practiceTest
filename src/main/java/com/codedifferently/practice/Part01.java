@@ -6,7 +6,8 @@ public class Part01 {
      * @param string2 - String to add to `string1`
      * @return concatenation of `string1` and `string2`
      */
-    public  String concatentate(String string1, String string2) {
+
+    public String concatenate(String string1, String string2) {
         return null;
     }
 
