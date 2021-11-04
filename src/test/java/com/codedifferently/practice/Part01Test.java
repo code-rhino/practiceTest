@@ -29,6 +29,7 @@ public class Part01Test {
         String expected = "aceca";
         String actual = part01.removeCharacters(string1, string2);
         Assertions.assertEquals(expected, actual);
+
     }
 
     @Test
