@@ -6,16 +6,20 @@ public class Part01 {
      * @param string2 - String to add to `string1`
      * @return concatenation of `string1` and `string2`
      */
-    public  String concatentate(String string1, String string2) {
-        return null;
+    public  String concatenate(String string1, String string2) {
+
+        return string1 + string2;
     }
 
     /**
      * @param string1 - String to be reversed
      * @return an identical string with characters in reverse order
      */
-    public  String reverse(String string1) {
-        return null;
+    public String reverse(String string1) {
+        for(int i = 0; i < string1.length(); i ++){
+
+        }
+        return ;
     }
 
     /**
